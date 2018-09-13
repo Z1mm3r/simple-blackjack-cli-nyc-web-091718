@@ -66,12 +66,12 @@ def runner
   loop do
     temp_amount = hit?(total)
     if temp_amount == total
-    end_game
+    end_game(total)
     break
     else
       total += temp_amount
       if total > 21
-      end_game
+      end_game(total)
       break
       end
     end
