@@ -63,7 +63,7 @@ def runner
   welcome
   total = initial_round
 
-  loop do
+  until total > 21
     display_card_total(total)
     temp_amount = hit?(total)
     if temp_amount == total
