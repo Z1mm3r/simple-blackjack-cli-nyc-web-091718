@@ -62,10 +62,10 @@ def runner
   total = 0 
   welcome
   total = initial_round
-  
-  
+
+  loop do
   total = hit?(total)
-  
+end
   
 end
     
