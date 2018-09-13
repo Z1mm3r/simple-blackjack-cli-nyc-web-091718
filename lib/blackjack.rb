@@ -72,7 +72,6 @@ def runner
     else
       total += temp_amount
       if total > 21
-      end_game(total)
       break
       end
     end
