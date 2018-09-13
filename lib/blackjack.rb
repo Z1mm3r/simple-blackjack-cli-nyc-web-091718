@@ -36,7 +36,7 @@ def hit?(total)
   input = get_user_input
   
   if(input == 's')
-  return FALSE
+  break
   elsif(input =='h')
     total += deal_card
     break
