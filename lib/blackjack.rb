@@ -64,7 +64,7 @@ def runner
   total = initial_round
 
   loop do
-    display_card_total
+    display_card_total(total)
     temp_amount = hit?(total)
     if temp_amount == total
     end_game(total)
