@@ -27,6 +27,7 @@ def initial_round
 end
 
 def hit?(total)
+  loop do
   prompt_user
   input = get_user_input
   
@@ -44,7 +45,7 @@ def hit?(total)
 end
 
 def invalid_command
-  # code invalid_command here
+  puts "Please enter a valid command"
 end
 
 #####################################################
