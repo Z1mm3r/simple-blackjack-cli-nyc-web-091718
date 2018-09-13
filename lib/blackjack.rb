@@ -77,5 +77,7 @@ def runner
     end
   end
   
+end_game
+  
 end
     
