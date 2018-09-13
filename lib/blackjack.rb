@@ -73,6 +73,7 @@ def runner
       if total > 21
       end_game
       break
+      end
     end
   end
   
