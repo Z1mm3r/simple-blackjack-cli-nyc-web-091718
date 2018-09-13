@@ -64,8 +64,13 @@ def runner
   total = initial_round
 
   loop do
-  total = hit?(total)
-end
+    temp_amount = hit?(total)
+    if temp_amount == total
+    end_game
+    break
+    else
+      total += temp_amount
+  end
   
 end
     
