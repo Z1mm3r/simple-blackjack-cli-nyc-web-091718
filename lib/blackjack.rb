@@ -77,7 +77,7 @@ def runner
     end
   end
   
-end_game
+end_game(total)
   
 end
     
